@@ -15,4 +15,8 @@ public class MainController {
     public String helloEarth() {
         return "Hello Earth!";
     }
+    @GetMapping("/helloMars")
+    public String helloMars() {
+        return "Hello Mars!";
+    }
 }
